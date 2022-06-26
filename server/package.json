@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "mongoose": "^6.4.0",
+    "serve": "^13.0.2",
     "socket.io": "^4.5.0"
   },
   "devDependencies": {

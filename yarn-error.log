@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D svelte-store-fetcher
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\MATLAB\MATLAB Runtime\v910\runtime\win64;C:\MinGW\bin;D:\Engineering Senior\Semester 7;;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\GitHubDesktop\bin;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\lenovo\AppData\Roaming\npm;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\Graphviz\bin;C:\Users\lenovo\miniconda3\Library\bin\graphviz;C:\Users\lenovo\AppData\Local\Programs\Python\Python39;C:\Users\lenovo\AppData\Local\Programs\Python\Python39\Scripts;D:\Engineering Senior\Semester 8\Distributed Computing\heroku\bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  14.17.5
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/firebase_db_cache: Not found
+      at Request.params.callback [as _callback] (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66992:18)
+      at Request.self.callback (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140763:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141735:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141657:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "svelte-app",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "build": "rollup -c",
+      "dev": "rollup -c -w",
+      "start": "sirv public --no-clear"
+    },
+    "devDependencies": {
+      "@rollup/plugin-commonjs": "^17.0.0",
+      "@rollup/plugin-node-resolve": "^11.0.0",
+      "rollup": "^2.3.4",
+      "rollup-plugin-css-only": "^3.1.0",
+      "rollup-plugin-livereload": "^2.0.0",
+      "rollup-plugin-svelte": "^7.0.0",
+      "rollup-plugin-terser": "^7.0.0",
+      "svelte": "^3.0.0"
+    },
+    "dependencies": {
+      "firebase_db_cache": "1.1.0",
+      "sirv-cli": "^1.0.0",
+      "svelte-proxied-store": "^1.1.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

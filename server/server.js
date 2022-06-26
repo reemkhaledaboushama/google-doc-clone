@@ -8,9 +8,9 @@ mongoose.connect("mongodb://localhost/gext-editor-team11", {
   useCreateIndex: true,
 })
 
-const io = require('socket.io')(3001, {
+const io = require('socket.io')(process.env.PORT, {
     cors: {
-        origin: 'http://localhost:3000' ,
+        origin: "*" ,
         methods: ['GET' , 'POST'], 
     }, 
 },

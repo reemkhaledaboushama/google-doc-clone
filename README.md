@@ -12,3 +12,11 @@ In our project we used:
 - Use the following link (https://text-editor-team11-client.herokuapp.com/), this will open a new document with a randomly generated ID.
 - In order to access the same document from multiple devices, use the above link and add `documents/`+ file ID.
 - For example (https://text-editor-team11-client.herokuapp.com/documents/doc1) and use the same ID `doc1` name in all devices to open the same document.
+
+## How To Open Our Second Text Editor?
+- You can test the application from here: https://golden-sunflower-a1683a.netlify.app/
+- you click on the link and a new room is created for collaborative text editing, the user can copy the link and give it to other users for real time text editing
+- The system supports local caching so the data is saved locally and the user can still view the website while he is offline
+- The rich text tool-bar has many features that allows the user to professionally edit the text
+- There is side navigation bar with download icon to download the document and a plus sign icon to add a new room
+

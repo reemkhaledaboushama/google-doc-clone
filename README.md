@@ -16,6 +16,7 @@ https://www.youtube.com/watch?v=51RgNkEz33Y
 - In order to access the same document from multiple devices, use the above link and add `documents/`+ file ID.
 - For example https://text-editor-team11-client.herokuapp.com/documents/doc1 and use the same ID `doc1` name in all devices to open the same document.
 
+
 ## How To Open Our Second Text Editor?
 - You can test the application from here: https://golden-sunflower-a1683a.netlify.app/
 - you click on the link and a new room is created for collaborative text editing, the user can copy the link and give it to other users for real time text editing

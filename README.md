@@ -21,4 +21,4 @@ https://www.youtube.com/watch?v=51RgNkEz33Y
 - you click on the link and a new room is created for collaborative text editing, the user can copy the link and give it to other users for real time text editing
 - The system supports local caching so the data is saved locally and the user can still view the website while he is offline
 - The rich text tool-bar has many features that allows the user to professionally edit the text
-- There is side navigation bar with download icon to download the document and a plus sign icon to add a new room
+- There is side navigation bar with download icon to download the document and a plus sign icon to add a new room.
